@@ -7,4 +7,6 @@ export default function createIteratorObject(report) {
   for (const key in employees) {
     res.push(employees[key]);
   }
+
+  return res;
 }
